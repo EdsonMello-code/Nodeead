@@ -8,7 +8,6 @@
   },
   "scripts": {
     "dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules src/server.ts",
-    "build": "babel src --extensions \".js,.json,.ts\" --out-dir dist --copy-files",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "start": "node src/server.js"
   },
